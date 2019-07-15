@@ -8,8 +8,8 @@ import scala.io.Source
 class MapTransactionDate {
 
   val transactionFile = "transactions"
-  type date = String
-  type  transactions = List[String]
+  type Date = String
+  type  Transactions = List[String]
 
   def getMapTransactionByDate(directory : String): TransactionDate = {
 
@@ -22,7 +22,7 @@ class MapTransactionDate {
     new TransactionDate(mapTransaction)
   }
 
-  def listTransactionsByDate(directory : String): List[(date, transactions)] = {
+  def listTransactionsByDate(directory : String): List[(Date, Transactions)] = {
 
     new File(directory).listFiles().toList.filter(_.getName.startsWith(transactionFile))
       .map(file => (getDateFromPath(file.getName).getOrElse(""), Source.fromFile(file).getLines()

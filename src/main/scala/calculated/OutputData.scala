@@ -11,10 +11,11 @@ class OutputData(directory :String, pathOut : String) {
 
   val referenceService = new ReferencesServiceImpl()
   val mapTransactionDate = new MapTransactionDate ()
+  type Date = String
+  type Magasin = String
+  val transactionsCalculatedByDate : Map[Date, List[TransactionCalculated]] ={
 
-  val transactionsCalculatedByDate : Map[String, List[TransactionCalculated]] ={
-
-    var transactionsCalculatedByDateTemp : Map[String, List[TransactionCalculated]] = Map()
+    var transactionsCalculatedByDateTemp : Map[Date, List[TransactionCalculated]] = Map()
     mapTransactionDate.getMapTransactionByDate(directory).transactionDate.foreach(x => {
       val date = x._1
       val transactions = x._2
@@ -31,9 +32,9 @@ class OutputData(directory :String, pathOut : String) {
     transactionsCalculatedByDateTemp
   }
 
-  val transactionsCalculatedByMagasinDate : Map[String, Map[String, List[TransactionCalculated]]] ={
+  val transactionsCalculatedByMagasinDate : Map[Date, Map[Magasin, List[TransactionCalculated]]] ={
 
-    var transactionsCalculatedByMagasinDateTemp : Map[String, Map[String, List[TransactionCalculated]]]  = Map()
+    var transactionsCalculatedByMagasinDateTemp : Map[Date, Map[String, List[TransactionCalculated]]]  = Map()
 
     mapTransactionDate.getMapTransactionByDate(directory).transactionDate.foreach(f = x => {
       val date = x._1
@@ -55,7 +56,7 @@ class OutputData(directory :String, pathOut : String) {
   }
 
   def getTop_100_ventes_GLOBAL_YYYYMMDD ={
-    var mapSumByProductList: Map[String, List[(String, Int)]]  = Map()
+    var mapSumByProductList: Map[Date, List[(String, Int)]]  = Map()
     transactionsCalculatedByDate.foreach(x => {
       val date: String = x._1
       val listTransactionCalculated:List[TransactionCalculated] = x._2
@@ -70,7 +71,7 @@ class OutputData(directory :String, pathOut : String) {
   }
 
   def getTop_100_ca_ventes_GLOBAL_YYYYMMDD ={
-    var mapSumByProductList: Map[String, List[(String, Double)]]  = Map()
+    var mapSumByProductList: Map[Date, List[(String, Double)]]  = Map()
     transactionsCalculatedByDate.foreach(x => {
       val date: String = x._1
       val listTransactionCalculated:List[TransactionCalculated] = x._2
