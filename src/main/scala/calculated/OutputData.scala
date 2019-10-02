@@ -1,8 +1,11 @@
 package calculated
 
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.util.Calendar
+
 import better.files._
-import better.files.File._
-import product.{MapProductPrice, ReferenceService, ReferencesMagasin, ReferencesServiceImpl}
+import product.{MapProductPrice, ReferencesMagasin, ReferencesServiceImpl}
 import transaction.MapTransactionDate
 
 import scala.collection.SortedSet
@@ -13,8 +16,8 @@ class OutputData(directory :String, pathOut : String) {
   val mapTransactionDate = new MapTransactionDate ()
   type Date = String
   type Magasin = String
-  val transactionsCalculatedByDate : Map[Date, List[TransactionCalculated]] ={
 
+  val transactionsCalculatedByDate : Map[Date, List[TransactionCalculated]] ={
     var transactionsCalculatedByDateTemp : Map[Date, List[TransactionCalculated]] = Map()
     mapTransactionDate.getMapTransactionByDate(directory).transactionDate.foreach(x => {
       val date = x._1
@@ -31,6 +34,7 @@ class OutputData(directory :String, pathOut : String) {
     })
     transactionsCalculatedByDateTemp
   }
+
 
   val transactionsCalculatedByMagasinDate : Map[Date, Map[Magasin, List[TransactionCalculated]]] ={
 
@@ -55,7 +59,12 @@ class OutputData(directory :String, pathOut : String) {
     transactionsCalculatedByMagasinDateTemp
   }
 
-  def getTop_100_ventes_GLOBAL_YYYYMMDD ={
+
+  def transactionsCalculatedByMagasinDate_7J() : Map[Date, Map[Magasin, List[TransactionCalculated]]] ={
+    transactionsCalculatedByMagasinDate.filter(date => isInLast7Days(date._1))
+  }
+
+  def getTop_100_ventes_GLOBAL_YYYYMMDD: Unit ={
     var mapSumByProductList: Map[Date, List[(String, Int)]]  = Map()
     transactionsCalculatedByDate.foreach(x => {
       val date: String = x._1
@@ -70,27 +79,24 @@ class OutputData(directory :String, pathOut : String) {
     })
   }
 
-  def getTop_100_ca_ventes_GLOBAL_YYYYMMDD ={
+  def getTop_100_ca_ventes_GLOBAL_YYYYMMDD: Unit ={
     var mapSumByProductList: Map[Date, List[(String, Double)]]  = Map()
     transactionsCalculatedByDate.foreach(x => {
       val date: String = x._1
       val listTransactionCalculated:List[TransactionCalculated] = x._2
       mapSumByProductList+=(date -> sumByCAProduct (listTransactionCalculated))
-
     })
-
     mapSumByProductList.foreach(x => {
       val fileName = pathOut + "Top_100_ca_ventes_GLOBAL_"+ x._1 + ".data"
       writeTopOnFile(fileName,  topN(x._2, 10))
     })
   }
 
-  def getTop_100_ventes_MAGASIN_YYYYMMDD ={
+  def getTop_100_ventes_MAGASIN_YYYYMMDD(): Unit ={
 
     transactionsCalculatedByMagasinDate.foreach(x => {
       val date: String = x._1
       x._2.foreach( y => {
-
         val magagsinID = y._1
         val listTransactionCalculated:List[TransactionCalculated] = y._2
         val fileName = pathOut + "Top_100_ventes_" +magagsinID+ "_" + date + ".data"
@@ -104,18 +110,34 @@ class OutputData(directory :String, pathOut : String) {
     }
 
 
-  def getTop_ca_100_ventes_MAGASIN_YYYYMMDD ={
+  def getTop_ca_100_ventes_MAGASIN_YYYYMMDD(): Unit ={
 
     transactionsCalculatedByMagasinDate.foreach(x => {
       val date: String = x._1
-      x._2.foreach( y => {
-
+      x._2.foreach { y => {
         val magagsinID = y._1
-        val listTransactionCalculated:List[TransactionCalculated] = y._2
-        val fileName = pathOut + "Top_ca_100_ventes_" +magagsinID+ "_" + date + ".data"
-        writeTopOnFile(fileName,  topN(sumByCAProduct(listTransactionCalculated), 10))
+        val listTransactionCalculated: List[TransactionCalculated] = y._2
+        val fileName = pathOut + "Top_ca_100_ventes_" + magagsinID + "_" + date + ".data"
+        writeTopOnFile(fileName, topN(sumByCAProduct(listTransactionCalculated), 10))
       }
-      )
+      }
+
+      // mapSumByProductList+=(date -> sumByProduct (listTransactionCalculated))
+    })
+
+  }
+
+  def getTop_ca_100_ventes_MAGASIN_YYYYMMDD_J7(): Unit ={
+
+    transactionsCalculatedByMagasinDate_7J().foreach(x => {
+      val date: String = x._1
+      x._2.foreach { y => {
+        val magagsinID = y._1
+        val listTransactionCalculated: List[TransactionCalculated] = y._2
+        val fileName = pathOut + "Top_ca_100_ventes_J7_" + magagsinID + "_" + date + ".data"
+        writeTopOnFile(fileName, topN(sumByCAProduct(listTransactionCalculated), 10))
+      }
+      }
 
       // mapSumByProductList+=(date -> sumByProduct (listTransactionCalculated))
     })
@@ -158,11 +180,16 @@ class OutputData(directory :String, pathOut : String) {
 
 
   def writeTopOnFile[T] (path : String, setData :Set[(String, T)] ): Unit ={
-
     val file: File = path.toFile.createIfNotExists()
     setData.foreach(x => {
       file.appendLine(x._1 + ";"+  x._2)
     })
+  }
+
+  def isInLast7Days( date : String) : Boolean ={
+    val pattern = DateTimeFormatter.ofPattern("yyyyMMdd")
+    LocalDate.parse(date, pattern)
+    LocalDate.parse(date, pattern).isBefore(LocalDate.now().minusDays(7))
   }
 
 }

@@ -9,7 +9,7 @@ import org.scalatest.FunSuite
 class MapProductPriceTest extends FunSuite {
 
 
-  test("test MapProductPrice") {
+  test("test Map Product Price") {
 
     var map : Map[Long,Double]= Map()
     map += (1L -> 1.1,2L -> 2.1)

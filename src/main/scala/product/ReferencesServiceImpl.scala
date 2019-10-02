@@ -29,14 +29,11 @@ class ReferencesServiceImpl {
       val mapProductPrice: MapProductPrice = new MapProductPrice (mapReference)
       val referencesMagasin : ReferencesMagasin = mapProductMagasinDate.mapProductMagasinDate.getOrElse(date, new ReferencesMagasin(Map() ))
       referencesMagasin.referencesMagasin += (IdMagasin -> mapProductPrice)
-
       mapProductMagasinDate.mapProductMagasinDate += (date -> referencesMagasin)
       }
-
     )
     mapProductMagasinDate
   }
-
 
   def getDateFromPath(fileName: String): Option[String] = {
     val pattern = "^reference_prod-.*_(\\d{8}).data$".r
@@ -49,7 +46,6 @@ class ReferencesServiceImpl {
 
   def getIdMagasinFromPath(fileName: String): Option[String] = {
     val pattern = "^reference_prod-(.*)_\\d{8}.data$".r
-
     fileName match {
       case pattern(id) => Some(id)
       case _ => None

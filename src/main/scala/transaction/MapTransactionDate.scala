@@ -23,12 +23,10 @@ class MapTransactionDate {
   }
 
   def listTransactionsByDate(directory : String): List[(Date, Transactions)] = {
-
     new File(directory).listFiles().toList.filter(_.getName.startsWith(transactionFile))
       .map(file => (getDateFromPath(file.getName).getOrElse(""), Source.fromFile(file).getLines()
         .toList))
   }
-
 
   def getDateFromPath(fileName: String): Option[String] = {
     val pattern = "(\\d{8})".r
