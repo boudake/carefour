@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>scala.project.carefour</groupId>
-    <artifactId>carefour</artifactId>
+    <artifactId>carrefour</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <pluginRepositories>

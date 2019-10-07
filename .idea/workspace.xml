@@ -2,68 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4722d7-72d3-4035-8dac-cfac06ce454b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carefour.iml" beforeDir="false" afterPath="$PROJECT_DIR$/carrefour.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/launcher.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/launcher.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/product/MapProductPriceTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/product/MapProductPriceTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/test.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/carefour.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$2$$anonfun$apply$8.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$2$$anonfun$apply$7.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCAByMagasin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCAByMagasin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCAByMagasin$2$$anonfun$apply$5.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCAByMagasin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCAByMagasin$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCountByMagasin$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCountByMagasin$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCountByMagasin$2$$anonfun$apply$6.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCountByMagasin$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumCountByMagasin$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$topN$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$topN$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$writeTopOnFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$writeTopOnFile$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/launcher$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/launcher$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/product/ReferencesServiceImpl$$anonfun$getReferencesByMagasinDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/ReferencesServiceImpl$$anonfun$getReferencesByMagasinDate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/product/ReferencesServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/product/ReferencesServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$2$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$2$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate$$anonfun$listTransactionsByDate$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transaction/MapTransactionDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transaction/TransactionDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transaction/TransactionDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/carefour.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/product/MapProductPriceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/MapProductPriceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/transaction/MapTransactionDateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/launcher.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,6 +58,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/Transaction.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -90,44 +75,32 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="e#20#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferenceService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/product/MapProductPriceTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#17#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-              <folding>
-                <element signature="e#22#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TransactionCalculated.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="102" />
+            <state relative-caret-position="107">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -142,43 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="129" column="46" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="46" />
-              <folding>
-                <element signature="e#20#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TupleProductQuantity.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-              <folding>
-                <element signature="e#20#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/launcher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="238">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -251,9 +191,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/product/MapProductPriceTest.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/launcher.scala" />
@@ -272,11 +212,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="carefour" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="carrefour" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="carefour" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="carrefour" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -294,6 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -354,21 +295,6 @@
               <item name="carefour" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carefour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carefour" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="reference" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carefour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carefour" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -377,26 +303,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carefour" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carefour" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="calculated" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570058978567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570479556758" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
@@ -432,73 +349,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="OutputTest.get the (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="carrefour" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="carrefour" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTransactionDateTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="carrefour" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MapTransactionDateTest.test map Transaction by Date" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="carrefour" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
+      <setting name="path" value="calculated.OutputTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -508,15 +361,15 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
-      <setting name="testName" value="test map Transaction by Date" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="testName" value="get the" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTransactionDateTest.test the transactions list By Date" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="OutputTest.get the (2)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="carrefour" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
+      <setting name="path" value="calculated.OutputTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -526,13 +379,31 @@
       <setting name="useUiWithSbt" value="false" />
       <envs />
       <setting name="testKind" value="Test name" />
-      <setting name="path" value="transaction.MapTransactionDateTest" />
-      <setting name="testName" value="test the transactions list By Date" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="testName" value="get the" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OutputTest.get the" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="OutputTest.get the (3)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="carrefour" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="testName" value="get the" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputTest.get the (4)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="carrefour" />
       <setting name="path" value="calculated.OutputTest" />
       <setting name="vmparams" value="" />
@@ -551,19 +422,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="ScalaTest.MapTransactionDateTest.test map Transaction by Date" />
-      <item itemvalue="ScalaTest.MapTransactionDateTest.test the transactions list By Date" />
-      <item itemvalue="ScalaTest.MapTransactionDateTest" />
-      <item itemvalue="ScalaTest.OutputTest.get the" />
       <item itemvalue="Application.launcher" />
+      <item itemvalue="ScalaTest.OutputTest.get the (1)" />
+      <item itemvalue="ScalaTest.OutputTest.get the (2)" />
+      <item itemvalue="ScalaTest.OutputTest.get the (3)" />
+      <item itemvalue="ScalaTest.OutputTest.get the (4)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.launcher" />
-        <item itemvalue="ScalaTest.OutputTest.get the" />
-        <item itemvalue="ScalaTest.MapTransactionDateTest" />
-        <item itemvalue="ScalaTest.MapTransactionDateTest.test map Transaction by Date" />
-        <item itemvalue="ScalaTest.MapTransactionDateTest.test the transactions list By Date" />
+        <item itemvalue="ScalaTest.OutputTest.get the (4)" />
+        <item itemvalue="ScalaTest.OutputTest.get the (3)" />
+        <item itemvalue="ScalaTest.OutputTest.get the (2)" />
+        <item itemvalue="ScalaTest.OutputTest.get the (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -581,27 +452,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MapTransactionDateTest_test_map_Transaction_by_Date - 2019.10.02 at 22h 41m 53s.xml">
-      <configuration name="MapTransactionDateTest.test map Transaction by Date" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="MapTransactionDateTest - 2019.10.02 at 22h 42m 09s.xml">
-      <configuration name="MapTransactionDateTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="MapTransactionDateTest - 2019.10.02 at 22h 43m 56s.xml">
-      <configuration name="MapTransactionDateTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="MapTransactionDateTest - 2019.10.02 at 22h 46m 07s.xml">
-      <configuration name="MapTransactionDateTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="MapTransactionDateTest - 2019.10.02 at 22h 49m 40s.xml">
-      <configuration name="MapTransactionDateTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the - 2019.10.02 at 23h 35m 23s.xml">
-      <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 40m 29s.xml">
-      <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 40m 56s.xml">
       <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -611,11 +461,32 @@
     <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 43m 34s.xml">
       <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="OutputTest_get_the_(1) - 2019.10.07 at 18h 23m 48s.xml">
+      <configuration name="OutputTest.get the (1)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(2) - 2019.10.07 at 18h 24m 29s.xml">
+      <configuration name="OutputTest.get the (2)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(3) - 2019.10.07 at 18h 24m 39s.xml">
+      <configuration name="OutputTest.get the (3)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 24m 54s.xml">
+      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 08s.xml">
+      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 36s.xml">
+      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 48s.xml">
+      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639676" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18137652" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -624,8 +495,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36412078" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.08525755" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55417407" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22735347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -648,14 +519,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala</url>
-          <line>15</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala</url>
           <line>38</line>
           <properties />
@@ -663,9 +526,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala</url>
-          <line>69</line>
+          <line>202</line>
           <properties />
-          <option name="timeStamp" value="54" />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -731,30 +600,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/mockitoTest/User.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/Mokitotest.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/MyTest.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/test.scala" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/test.scala" />
     <entry file="file://$PROJECT_DIR$/src/test/scala/product/ReferenceServiceTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
@@ -765,27 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/product/MapProductPrice.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/product/MapProductMagasinDate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferenceService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.11/3.2.0-SNAP2/scalatest_2.11-3.2.0-SNAP2.jar!/org/scalatest/FunSuite.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -793,62 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/Transaction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#17#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/product/ReferencesMagasinTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferencesMagasin.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TupleMagasinPrice.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TupleProductQuantity.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -879,37 +653,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TransactionCalculated.scala">
+    <entry file="file://$PROJECT_DIR$/carrefour.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/product/MapProductMagasinDate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferencesMagasin.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="102" />
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/product/MapProductPrice.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TupleProductQuantity.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TupleMagasinPrice.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferenceService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/TransactionDate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/Transaction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/product/ReferencesServiceImpl.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-77">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#17#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="200">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
             <element signature="e#20#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TransactionCalculated.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="129" column="46" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="46" />
-          <folding>
-            <element signature="e#20#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/transaction/MapTransactionDate.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/launcher.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="238">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#20#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
