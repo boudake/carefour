@@ -10,15 +10,11 @@ object launcher {
     val outputData = new OutputData(pathIn,pathOut )
 
     outputData.getTop_N_ventes_GLOBAL_YYYYMMDD(10).foreach(println)
-   // outputData.getTop_N_ca_ventes_GLOBAL_YYYYMMDD(10).foreach(println)
-  //  outputData.getTop_N_ventes_MAGASIN_YYYYMMDD(10).foreach(println)
-   // outputData.getTop_ca_N_ventes_MAGASIN_YYYYMMDD(10).foreach(println)
-    /*outputData.getTop_100_ventes_GLOBAL_YYYYMMDD
-    outputData.getTop_100_ventes_MAGASIN_YYYYMMDD
-    outputData.getTop_100_ca_ventes_GLOBAL_YYYYMMDD
-    outputData.getTop_ca_100_ventes_MAGASIN_YYYYMMDD
+    outputData.getTop_N_ca_ventes_GLOBAL_YYYYMMDD(10).foreach(println)
+    outputData.getTop_N_ventes_MAGASIN_YYYYMMDD(10).foreach(println)
+    outputData.getTop_ca_N_ventes_MAGASIN_YYYYMMDD(10).foreach(println)
     outputData.getTop_ca_100_ventes_MAGASIN_YYYYMMDD_J7()
-*/
+
   }
 
 
