@@ -15,15 +15,26 @@ class OutputTest extends  FunSuite with MockitoSugar{
     , TransactionCalculated ("magasin2",1,2, 1)
   )
 
-  val OutputData = mock[OutputData]
+  val OutputData = new OutputData("", "")
 
  // val outputData =  new OutputData("","")
 
   test("get the"){
 
-    println(OutputData.isInLast7Days("20191007"))
+    println(OutputData.isInLast7Days("20191003"))
+
 
   }
 
+  def isInLast7Days( date : String) : Boolean ={
+    val pattern = DateTimeFormatter.ofPattern("yyyyMMdd")
+    try
+    {
+      LocalDate.parse(date, pattern).isAfter(LocalDate.now().minusDays(7))
+    }catch {
+      case exception: Exception =>
+        false
+    }
+  }
 
 }

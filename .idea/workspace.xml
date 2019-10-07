@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c4722d7-72d3-4035-8dac-cfac06ce454b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/launcher.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/launcher.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anon$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anon$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2$$anonfun$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ca_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_GLOBAL_YYYYMMDD$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1$$anonfun$apply$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$getTop_ca_100_ventes_MAGASIN_YYYYMMDD$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCAProduct$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$sumByCountProduct$1.class" afterDir="false" />
@@ -38,8 +17,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$topN$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$topN$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$writeTopOnFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData$$anonfun$writeTopOnFile$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/calculated/OutputData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/calculated/OutputData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/launcher$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/launcher$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/launcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/launcher.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -78,8 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+            <state relative-caret-position="930">
+              <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
+              <folding>
+                <element signature="e#20#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="e#20#46#0" expanded="true" />
               </folding>
@@ -117,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/launcher.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="102">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -194,9 +183,9 @@
         <option value="$PROJECT_DIR$/src/test/scala/transaction/MapTransactionDateTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/product/MapProductPriceTest.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/launcher.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala" />
       </list>
     </option>
   </component>
@@ -313,7 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570479556758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570486120930" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
@@ -341,14 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.launcher">
-    <configuration name="launcher" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="launcher" />
-      <module name="carrefour" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.OutputTest.get the (5)">
     <configuration name="OutputTest.get the (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="carrefour" />
       <setting name="path" value="calculated.OutputTest" />
@@ -421,16 +403,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OutputTest.get the (5)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="carrefour" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="calculated.OutputTest" />
+      <setting name="testName" value="get the" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.launcher" />
       <item itemvalue="ScalaTest.OutputTest.get the (1)" />
       <item itemvalue="ScalaTest.OutputTest.get the (2)" />
       <item itemvalue="ScalaTest.OutputTest.get the (3)" />
       <item itemvalue="ScalaTest.OutputTest.get the (4)" />
+      <item itemvalue="ScalaTest.OutputTest.get the (5)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.launcher" />
+        <item itemvalue="ScalaTest.OutputTest.get the (5)" />
         <item itemvalue="ScalaTest.OutputTest.get the (4)" />
         <item itemvalue="ScalaTest.OutputTest.get the (3)" />
         <item itemvalue="ScalaTest.OutputTest.get the (2)" />
@@ -452,35 +452,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 40m 56s.xml">
-      <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 43m 11s.xml">
-      <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the - 2019.10.03 at 00h 43m 34s.xml">
-      <configuration name="OutputTest.get the" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the_(1) - 2019.10.07 at 18h 23m 48s.xml">
-      <configuration name="OutputTest.get the (1)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the_(2) - 2019.10.07 at 18h 24m 29s.xml">
-      <configuration name="OutputTest.get the (2)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the_(3) - 2019.10.07 at 18h 24m 39s.xml">
-      <configuration name="OutputTest.get the (3)" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 24m 54s.xml">
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 23h 57m 38s.xml">
       <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 08s.xml">
+    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 23h 58m 04s.xml">
       <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 36s.xml">
-      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 00m 07s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="OutputTest_get_the_(4) - 2019.10.07 at 18h 27m 48s.xml">
-      <configuration name="OutputTest.get the (4)" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 00m 55s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 01m 24s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 01m 33s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 01m 42s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 01m 53s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 02m 08s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="OutputTest_get_the_(5) - 2019.10.08 at 00h 03m 34s.xml">
+      <configuration name="OutputTest.get the (5)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -495,7 +495,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.55417407" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.22735347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,18 +523,6 @@
           <line>38</line>
           <properties />
           <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala</url>
-          <line>202</line>
-          <properties />
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala</url>
-          <line>205</line>
-          <properties />
-          <option name="timeStamp" value="69" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -729,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#20#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/TransactionCalculated.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -755,15 +733,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/launcher.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="102">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/calculated/OutputTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <folding>
+            <element signature="e#20#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/calculated/OutputData.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="19" column="39" lean-forward="true" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        <state relative-caret-position="930">
+          <caret line="136" column="4" selection-start-line="136" selection-start-column="4" selection-end-line="136" selection-end-column="4" />
           <folding>
             <element signature="e#20#46#0" expanded="true" />
           </folding>

@@ -2,12 +2,9 @@ package calculated
 
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-
-
 import better.files._
 import product.{MapProductPrice, ReferencesMagasin, ReferencesServiceImpl}
 import transaction.MapTransactionDate
-
 import scala.collection.SortedSet
 
 class OutputData(directory :String, pathOut : String) {
@@ -67,7 +64,7 @@ class OutputData(directory :String, pathOut : String) {
   def getTop_N_ventes_GLOBAL_YYYYMMDD(n :Int): Map[Date, Set[(String, Int)]] ={
     var mapTopByDate : Map[Date,Set[(String, Int)]] = Map()
     var mapSumByProductList: Map[Date, List[(String, Int)]]  = Map()
-    getTransactionsCalculatedByDate.foreach(x => {
+    getTransactionsCalculatedByDate().foreach(x => {
       val date: String = x._1
       val listTransactionCalculated:List[TransactionCalculated] = x._2
       mapSumByProductList+=(date -> sumByCountProduct (listTransactionCalculated))
@@ -84,7 +81,7 @@ class OutputData(directory :String, pathOut : String) {
   def getTop_N_ca_ventes_GLOBAL_YYYYMMDD (n :Int) : Map[Date,Set[(String, Double)]] ={
     var mapTopByDate : Map[Date,Set[(String, Double)]] = Map()
     var mapSumByProductList: Map[Date, List[(String, Double)]]  = Map()
-    getTransactionsCalculatedByDate.foreach(x => {
+    getTransactionsCalculatedByDate().foreach(x => {
       val date: String = x._1
       val listTransactionCalculated:List[TransactionCalculated] = x._2
       mapSumByProductList+=(date -> sumByCAProduct (listTransactionCalculated))
@@ -196,17 +193,13 @@ class OutputData(directory :String, pathOut : String) {
   }
 
   def isInLast7Days( date : String) : Boolean ={
-    val returnValue : Boolean = false
     val pattern = DateTimeFormatter.ofPattern("yyyyMMdd")
     try
-      {
-        LocalDate.parse(date, pattern)
-        return LocalDate.parse(date, pattern).isBefore(LocalDate.now().minusDays(7))
-      }catch {
+    {
+     return LocalDate.parse(date, pattern).isAfter(LocalDate.now().minusDays(7))
+    }catch {
       case exception: Exception =>
-       return  false
+        true
     }
-
   }
-
 }
