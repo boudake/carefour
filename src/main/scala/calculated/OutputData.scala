@@ -196,10 +196,10 @@ class OutputData(directory :String, pathOut : String) {
     val pattern = DateTimeFormatter.ofPattern("yyyyMMdd")
     try
     {
-     return LocalDate.parse(date, pattern).isAfter(LocalDate.now().minusDays(7))
+     LocalDate.parse(date, pattern).isAfter(LocalDate.now().minusDays(7))
     }catch {
       case exception: Exception =>
-        true
+        false
     }
   }
 }

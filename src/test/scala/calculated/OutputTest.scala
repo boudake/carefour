@@ -21,8 +21,7 @@ class OutputTest extends  FunSuite with MockitoSugar{
 
   test("get the"){
 
-    println(OutputData.isInLast7Days("20191003"))
-
+    println(OutputData.isInLast7Days("20191001"))
 
   }
 
