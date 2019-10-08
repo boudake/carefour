@@ -21,19 +21,16 @@ class OutputTest extends  FunSuite with MockitoSugar{
 
   test("get the"){
 
-    println(OutputData.isInLast7Days("20191001"))
 
   }
 
-  def isInLast7Days( date : String) : Boolean ={
-    val pattern = DateTimeFormatter.ofPattern("yyyyMMdd")
-    try
-    {
-      LocalDate.parse(date, pattern).isAfter(LocalDate.now().minusDays(7))
-    }catch {
-      case exception: Exception =>
-        false
-    }
-  }
+test ( "thes the function getTopN"){
+  val testData = List(("P1",200), ("P2",300),("P5",900),("P7",10))
+  val testData1 = List(("P1",200.23), ("P2",300.53),("P5",900.34),("P7",10.4545))
+  assert(Set(("P2",300), ("P5",900))=== OutputData.topN(testData,2))
+  assert(Set(("P2",300.53), ("P5",900.34))=== OutputData.topN(testData1,2))
+
+}
+
 
 }
